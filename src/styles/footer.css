@@ -1,0 +1,113 @@
+#footer {
+    background-color: var(--bg-color);
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 3rem;
+    margin-bottom: 2rem;
+}
+
+.footer-content .logo {
+    flex: 1;
+    text-align: left;
+}
+
+.footer-content .logo-section {
+    display: flex;
+    flex-direction: column; /* Coloca os elementos em coluna */
+    align-items: center; /* Centraliza horizontalmente */
+    gap: 0.5rem; /* Espaçamento entre a logomarca e as imagens */
+}
+
+.footer-content .logo p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.footer-content .social-icons {
+    display: flex;
+    justify-content: center; /* Garante alinhamento central horizontal */
+    gap: 1rem; /* Espaçamento entre as imagens */
+    margin-top: 0.5rem; /* Adiciona margem superior para dar espaço */
+}
+
+.footer-content .social-icons a {
+    text-decoration: none;
+    color: #555;
+}
+
+.footer-content .social-icons img {
+    width: 25px;
+}
+
+
+.footer-content .footer-links {
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+
+.footer-content .footer-links .column {
+    flex: 1;
+    min-width: 200px;
+}
+
+.footer-content .footer-links .column h3 {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.footer-content .footer-links .column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-content .footer-links .column ul li {
+    margin-bottom: 0.5rem;
+}
+
+.footer-content .footer-links .column ul li a {
+    text-decoration: none;
+    color: #555;
+    font-size: 1rem;
+}
+
+.footer-bottom {
+    background-color: #cdcdcd;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.footer-bottom p {
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+/* Responsividade */
+
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-content .footer-links {
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+    }
+
+    .footer-content .footer-links .column {
+        min-width: unset;
+        text-align: center;
+    }
+}

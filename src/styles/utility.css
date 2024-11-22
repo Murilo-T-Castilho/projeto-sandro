@@ -16,7 +16,13 @@
 
 .desktop-only {
     display: none;
+    
 }
+
+.desktop-only ul {
+    padding-left: 5rem;
+    padding-right: 5rem; /* Espaço à esquerda dos links */
+  }
 
 .even-columns {
     display: grid;

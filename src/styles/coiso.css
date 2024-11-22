@@ -60,11 +60,13 @@
     color: var(--text-color);
     margin-bottom: var(--py-sm);
     font-size: var(--fs-xl);
+    
 }
 
 #coiso .product-card p {
     color: var(--second-text-color);
     font-size: var(--fs-base);
+    text-align: center;
 }
 
 #coiso .icon {
@@ -113,6 +115,7 @@
     #coiso .product-card {
         width: 30%;
         text-align: left;
+        height: 20rem;
     }
 
     .no-scroll {
