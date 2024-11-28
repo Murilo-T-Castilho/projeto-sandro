@@ -5,6 +5,7 @@ import Star from "../assets/Star.svg";
 import EmptyStar from "../assets/EmptyStar.svg";
 import "../styles/utility.css";
 import "../styles/testimonials.css"
+import '../styles/index.css';
 
 const Testimonials: React.FC = () => (
     <section id="testimonials">

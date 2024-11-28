@@ -1,9 +1,10 @@
-import Logo from "../assets/logo.svg";
+//import Logo from "../assets/logo.svg";
 import insta from "../assets/instagram.svg";
 import face from "../assets/facebook.svg";
 import ytube from "../assets/youtube.svg";
 import "../styles/utility.css";
 import "../styles/footer.css"
+import '../styles/index.css';
 
 
 

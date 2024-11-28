@@ -1,7 +1,9 @@
 import "../styles/pricing.css";
 import "../styles/utility.css";
+import '../styles/index.css';
 import Button from "./Button";
 import check from "../assets/check.svg";
+
 
 const Pricing: React.FC = () => (
   <section id="pricing">

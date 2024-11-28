@@ -5,7 +5,7 @@ import Menu from "../assets/hamburguer.svg";
 import Button from "./Button";
 import "../styles/header.css";
 import "../styles/utility.css";
-
+import '../styles/index.css';
 
 const Header: React.FC = () => {
   const [showMobileMenu, setShowMobileMenu] = useState(false);

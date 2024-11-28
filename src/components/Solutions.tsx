@@ -3,6 +3,7 @@ import Bank from "../assets/bank.svg";
 import Human from "../assets/human.svg";
 import "../styles/utility.css";
 import "../styles/coiso.css";
+import '../styles/index.css';
 
 const Solutions: React.FC = () => (
   <section id="coiso">

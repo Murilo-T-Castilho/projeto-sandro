@@ -3,6 +3,7 @@ import HeroRectangleTwo from "../assets/images/rectangleTwo.png";
 import Button from "./Button";
 import "../styles/utility.css";
 import "../styles/hero.css";
+import '../styles/index.css';
 
 const Hero: React.FC = () => (
     <section id="hero">
